@@ -6,6 +6,4 @@
 		<feature>servlet-3.1</feature>
 	</featureManager>
 
-	<webApplication location="howto-java-cronjobs.war" />
-
 </server>
