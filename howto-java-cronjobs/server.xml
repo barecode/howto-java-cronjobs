@@ -1,0 +1,11 @@
+<server description="howto-java-cronjobs">
+
+	<!-- Enable features -->
+	<featureManager>
+		<feature>ejbLite-3.2</feature>
+		<feature>servlet-3.1</feature>
+	</featureManager>
+
+	<webApplication location="howto-java-cronjobs.war" />
+
+</server>
