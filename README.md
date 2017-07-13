@@ -20,13 +20,11 @@ This guide presumes knowledge on install and use of the following:
 * Step 2 - Create the server
   * Copy `howto-java-cronjobs` to your Liberty servers directory
   * `cp -r howto-java-cronjobs/ wlp_user_dir/servers/howto-java-cronjobs/`
-* Step 3 - Deploy the WAR
-  * Create the `dropins` directory in the `howto-java-cronjobs`
-  * `mkdir wlp_user_dir/servers/howto-java-cronjobs/dropin`
+* Step 3 - Start the server
+  * `bin/server run howto-java-cronjobs`
+* Step 4 - Deploy the WAR
   * Move the built WAR into `dropins`
   * `mv build/libs/howto-java-cronjobs.war wlp_user_dir/servers/howto-java-cronjobs/dropins`
-* Step 4 - Start the server
-  * `bin/server run howto-java-cronjobs`
 
 
 # Import into Eclipse
