@@ -31,9 +31,8 @@ This guide presumes knowledge on install and use of the following:
 
 The following are high-level instructions for importing this project into Eclipse
 
-1. Import -> Projects from Git
-2. Add `howto-java-cronjobs` to your Servers view
-3. You may need to modify your `.classpath` entry to point to your Liberty installation
+1. Run `gradle eclipse` to generate the .project and other files needed by Eclipse
+2. Import -> Projects from Git
 
 
 # Acknowledgements
