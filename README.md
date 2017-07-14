@@ -5,7 +5,7 @@ This "How To Guide" dives into cronjob like behaviour in Java. Styled after cron
 `@Schedule(hour = "*", minute = "*", second = "*/5", persistent = false)`
 
 
-# Prerequisite
+## Prerequisite
 
 This guide presumes knowledge on install and use of the following:
 * Gradle
@@ -13,7 +13,7 @@ This guide presumes knowledge on install and use of the following:
 * WebSphere Developer Tools (WDT)
 
 
-# Build and Deploy
+## Build and Deploy
 
 * Step 1 - Build the WAR
   * Run `gradle` to build the WAR in `build/libs/howto-java-cronjobs.war`
@@ -27,7 +27,7 @@ This guide presumes knowledge on install and use of the following:
   * `mv build/libs/howto-java-cronjobs.war wlp_user_dir/servers/howto-java-cronjobs/dropins`
 
 
-# Import into Eclipse
+## Import into Eclipse
 
 The following are high-level instructions for importing this project into Eclipse
 
@@ -35,7 +35,7 @@ The following are high-level instructions for importing this project into Eclips
 2. Import -> Projects from Git
 
 
-# Acknowledgements
+## Acknowledgements
 
 A big thank you to Andy Guibert @aguibert for the pointer to this technology
 and his [TimerBean.java](https://github.com/aguibert/coms319-project4/blob/master/430_EJBs/src/web/ejb/TimerBean.java)
